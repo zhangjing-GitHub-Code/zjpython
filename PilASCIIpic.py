@@ -17,7 +17,7 @@ def get_ascii(r,b,g,a=256):
 fi=input(step_log+"要转换哪个图片? (./pre.png): ")
 try:
     im=Image.open('pre.png') if len(fi)<=2 else Image.open(fi)
-    W,H=90,50
+    W,H=60,40
     im=im.resize((W,H))
     txt=""
     for i in range(H):
